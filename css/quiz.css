@@ -10,8 +10,8 @@ body {
 .wrapper {
 	width: 100%;
 	margin: auto;
-	border:1px solid red;
   min-width: 780px;
+  /*border:1px solid red;*/
 }
 
 /* CARD HEADER STYLING */
