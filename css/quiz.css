@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* WRAPPER STYLING */
+.wrapper {
+	width: 100%;
+	margin: auto;
+	min-width: 780px;
+	/*border:1px solid red;*/
+}
+
+/* CARD HEADER STYLING */
+.card-header {
+	border-bottom: 1px dotted lightgray;
+}
+
+/* TEXT DESCRIPTION STYLING */
+.product-description {
+	text-align: justify;
+	padding: 0px 5px;
+	font-weight: 600;
+}
+
+/* MAIN SECTIOIN STYLING */
+div article {
+	display: inline;
+}
+
+/* 3 BOXES STYLING WITH 2nd + 3rd Articles Floated so they are Center of Page*/
+article {
+	float: left;
+	width: 30%;
+	border: 1px solid lightblue;
+	min-width: 225px;
+	/*margin: 0px;*/
+}
+
+.second-article, .third-article	{
+	margin-left: 5%;
+}
+
+/* STYLING FOR 1st SECTION - Centers Title, Img and Description */
+.section-1 {
+	text-align: center;
+}
+
+/* STYLE AVAILABLE SECTION */
+.availability {
+	color: yellow;
+	background-color: gray;
+	margin-bottom: 0px;
+	text-align: left;
+	padding: 2px 5px 2px;
+}
+
+/* TEXT STYLING - Eliminate default margins to collapse as shown */
+h2, h4, h6 {
+	margin: 0px;
+}
+
+h3, h2{
+	margin-bottom: 0px;
+	padding-left: 15px;
+}
+
+.specs, .prices {
+	padding-left: 25px;
+}
+
+.product-footer {
+	padding-left: 5px;
+}
+
+/*Clearfix - To extend Article border fully */
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
